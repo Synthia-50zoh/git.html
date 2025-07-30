@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color:pink;
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color:cornsilk;
+    width: 100%;
+    height: 10%;
+
+}
+ul{
+display: flex;
+flex-direction: row;
+list-style: none;
+gap: 1rem;
+
+}
+.search-contact{
+
+      display: flex;
+       flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 2px;
+    
+    }
+    button{
+        height: 35px;
+        width: 90px;
+        background-color: pink;
+        color: orangered;
+        border: none;
+        border-radius: 2px;
+    }
+    .services{
+        display: flex;
+          flex-direction: row;
+          justify-content: center;
+    }
+    
+
+    .courier-service{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+
+    }
+    .image{
+        height: 300px;
+        width: 150px;
+        display: flex;
+        margin-left: 40px;
+    }
+
